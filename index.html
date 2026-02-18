@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js</title>
+</head>
+<body >
+    <script>
+// Question number 01 "using var, assing a number,redeclare itS" --
+  //var number = 10;
+  //var number=20;
+ //console.log(  "Number is number:",number);
+
+   //Questione number 02 "using let and try redeclareing it".//
+ //let age = 20;
+ //onsole.log ("May age is:",age);
+
+     // Question number 03 "create a const variable and attempt to reassign it.//
+ //const pi =3.14;
+ //console.log( "value of pi:",pi);
+
+    //Question number 04 "Demonstring block scope using let."//
+ //{
+ // let x = 100;
+ // console.log ("Inside block:",x);
+// }
+   //let sirf inside ki value print krta haai outside me let ki value define nhi hoti//
+
+    // Question number 05"showing var does not follow block scope."//
+
+ //{
+ // var y =200;
+ //}
+ //console.log("outside block:",y);
+
+   //Question number 06"create a const object,modify one property,and print before and after value."//
+ //const person={
+ // name: "Nidhi",
+ // age : 20
+ //};
+ //console.log("Before :",person);
+ //person.age = 21;
+ //console.log("After:",person);     //Object  reassing nhi kr sakte lekin properties change kar sakte hai
+ 
+  // Question numbert 07 " all primitive date type and print their typeof"//
+// PRIMITIVE DATE TYPES
+   //1.String
+ //let name = "Nidhi";
+// console.log("My name is :"+name);
+// console.log("Types is :",typeof(name));
+   //2.Number//
+ //let num = 11;
+ //console.log("Number is :",num);
+ //console.log("Type is :",typeof(num));
+   //3.Boolean//
+//let isvarified= true;
+ //console.log("Boolean is :", isvarified);
+ //console.log("Type is :",typeof(isvarified));
+   //4. Undifined//
+   //   let age;
+   //   console.log("Age is :",age);
+  //    console.log( "Types of :",typeof (age));
+   //5.Null
+//   let date = null;
+ //  console.log("Date is:",date);
+//   console.log("Types od data is",typeof(date));
+   //6.BigInt
+    // let bigInt = BigInt("11123456789009876543211234567890234566789011234567890098765432112345678909876655443321");
+ //   let bigInt = 4444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444n;
+ //  console.log("BigInt number is:",bigInt);
+ //  console.log("Types of big int is: ",typeof(bigInt)); 
+   //7.symbol
+   //  let symbol = Symbol("nidhi Malviya");
+   //  console.log("symbol is :",symbol);
+   //  console.log("Type of symbol is :",typeof(symbol));
+
+    
+        //Question number 08 "create an array of 5 numbers, print the firt element, and add one new element".
+       // let arr = [10, 20, 30, 40, 50];
+       // console.log("First element:",arr[0]);
+       // arr.push(60);
+      //  console.log ("Updated array :", arr);
+
+        // Question number 09 "object with Dot Notation "
+     //   let student={
+        //    name:"nidhi",
+     //       age: 21,
+      //      city : "Indore"
+      //  }
+      //  console.log (student.name);
+     //   console.log (student.age);
+      //  console.log (student.city);
+
+        // Question number 10 " to check whether a variable is an array".
+       // let date = [10,20,30] ;
+       // if (Array.isArray(date)){
+        //    console.log ("Yes,it is an aarray");
+     //    } else {
+     //       console.log("No,it is not an array");
+       //  }
+
+        //Question number 11 "copy a primitive variable"
+       // let a = 10;
+       // let b = a;
+     //   b= 20;
+       // console.log(a);
+      //  console.log(b);
+
+      //Question number 12""copy an object"
+   //let obj1={ name:"Nidhi",age:20};
+  //  let obj2=obj1;
+   // obj2.age=25;
+  //  console.log  (obj1);
+   // console.log(obj2); //object reference copy hotA hai. isliye dono change ho jayenge.
+
+   //Question number 13 "arithmetic operations"
+   // 1.Addition
+  //let a = 100;
+   // let b = 200;
+  //   let sum = a+b;
+  //   console.log("Sum is: ",sum);
+
+// 2. Subtraction
+
+//let x= 20;
+//   let y=30;
+ //let diff = x-y;
+// console.log("Difference is : ",diff);
+
+// 3. Multiplication
+  //let p= 20;
+ // let q = 5;
+ //  let product= p*q;
+//console.log("Product is: ",product);
+
+// 4. Division
+ // let a1 = 625;
+// let b1 = 5;
+ //let div = a1/b1;
+  //console.log("Devision is: ",div);
+
+// 5. Exponentiation
+
+//  let x1 = 2;
+ // let y1 = 3;
+      //    let exp = x1**y1;
+//   console.log("Exponentitaion is: ",exp);
+
+//Question number 14 "swap two number using a thierd variable.
+ //  let a=5;
+ //   let b=10;
+  //   let temp = a;
+   //  a=b;
+   //  b=temp;
+   //  console.log(a,b);
+
+       //Question number 15 "swap whithout third variable.
+       //let a = 10;
+       // let b = 20;
+      //   a= a+b;
+       //  b= a-b;
+        // a= a-b;
+        // console.log(a,b);
+
+        //Question number 16"Even or odd"
+        //let num = 7;
+       // if (num% 2 === 0){
+       //   console.log("Even");
+      //  }   else {
+      //    console.log("odd");
+ // }
+
+            //Question number 17"==and==="
+        //  console.log(5=="5");
+        //  console.log (5==="5");
+
+//Question number 18 "use logical operators"
+   //   let age = 20;
+    //   let hasID = true;
+     //     if (age > 18 &&hasID){
+     //       console.log("Allowed");
+      //    }  else {
+      //      console.log("Not Allowed");
+      //    }
+
+      //Question number 19 "Largest of Three Numbers"
+     //   let a=10 , b=25 , c=15 ;
+     //     if ( a > b && a > c) {
+      //        console.log("A is largest");
+    //    }  else if ( b > c) {
+       //       console.log("B is largest");
+     //   } else {
+     //       console.log("c is largest");
+    //    }
+
+    //Question number 20 "Function Declaration(Square)"
+        //   function square(num) {
+        //    return num * num;
+        //   }
+        //   console.log(square(4));
+
+
+
+        //Question number 21 "Function Expression(Cube)"
+     //   const cube = function(num) {
+      //    return num*num*num;
+     //   };
+      //  console.log(cube(3));
+        
+      //Question number 22 "Arrow Function(Add)"
+     //   const add =(a ,b) => a+b;
+     //   console.log(add(5 ,3)) ;
+
+       //Question number 23 "Arrow Function(Positive , Negative , Zero)"
+       //  const checkNumber=(num)=>{
+        //    if(num > 0) return "Positive";
+         //    else if (num < 0) return "Negative";
+        //      else return "Zero";
+      //   };
+      //   console.log( checkNumber(-5));
+
+       //Question number 24 "Return sum, difference ,product"
+         // function calculate(a ,b) {
+         //   return{
+          //     sum: a+b,
+          //     difference : a-b,
+          //      product: a*b
+         //   };
+        //  }
+       //   console.log(calculate(6 , 3));
+
+          //Question number 25 "create a function that takes an array and returns the sum of all elements."
+          //  function sumArray(arr) {
+           //    let sum = 0;
+            //    for( let i=0; i< arr.length; i++)
+             //   {
+            //      sum =sum+arr[i];
+           //     }
+           //     return sum;
+          //  }
+        //    console.log(sumArray([10 , 20, 30 ,40]));
+
+  //Question number 26 "create a calculation function that takes (num1,num2, operator)" and performs +,-,*,/
+          
+           function calculate(num1,num2,operator)
+           {
+            if(operator === "+") {
+              return num1+ num2;
+                }
+                else if(operator === "-" ){
+                  return num1 - num2;
+              }
+               else if (operator ==="*"){
+                return num1 * num2;
+               }
+               else if (operator ==="/"){
+                return num1 / num2;
+              }
+              else {
+                return "Invalid Operator";
+
+              }
+           }
+           console.log(calculate(10 ,5 ,"+"));
+           console.log (calculate (10 ,5 ,"-"));
+            console.log (calculate (10 ,5 ,"*"));
+             console.log (calculate (10 ,5 ,"/"));
+           
+ </script>
+</body>
+</html>
+
+
+   
+
+
+
+  
+
+    
+     
+     
+  
+
